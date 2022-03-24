@@ -3,7 +3,7 @@
     "build": {
         "dockerfile": "Dockerfile"
     },
-    "forwardPorts": [80],
+    "forwardPorts": [4000],
     "extensions": [
     ]
 }
