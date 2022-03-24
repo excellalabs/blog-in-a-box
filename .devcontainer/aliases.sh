@@ -2,4 +2,4 @@
 # This is so that when someone updates their devcontainer name, it doesn't get screwed up
 first_workspace=$(cd /workspaces && ls | head -1)
 
-alias localdev= cd $first_workspace/src bundle install && bundle exec jekyll serve --future"
+alias localdev=cd $first_workspace/src bundle install && bundle exec jekyll serve --future
