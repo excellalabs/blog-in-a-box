@@ -3,5 +3,6 @@
 first_workspace=$(cd /workspaces && ls | head -1)
 
 alias gotoworkspace="cd /workspaces/$first_workspace/src"
+
 alias localdev="gotoworkspace && bundle install && bundle exec jekyll serve --future"
 alias serve="gotoworkspace && bundle exec jekyll serve --future"
