@@ -7,4 +7,4 @@ alias gotoworkspace="cd /workspaces/$first_workspace/src"
 alias localdev="gotoworkspace && bundle install && bundle exec jekyll serve --future"
 alias serve="gotoworkspace && bundle exec jekyll serve --future"
 
-alias spellcheck="cd /blog-in-a-box_tools && npx cspell --config /workspaces/$first_workspace/src/cSpell.json \"/workspaces/$first_workspace/src/**/*.md\""
+alias spellcheck="cd /blog-in-a-box_tools && npx cspell --config /workspaces/$first_workspace/cSpell.json \"/workspaces/$first_workspace/src/**/*.md\""
