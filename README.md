@@ -27,3 +27,5 @@ This project is created to use the following:
 ## Using This Project to Make Your Own Blog
 
 * Update the name within your `devcontainer.json` file to match your blog's name.
+* Go through the [Configuration Guide for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/), and update the `src/_config.yml` file accordingly.
+  * We've configured some sensible defaults and added comments where they might be helpful.
