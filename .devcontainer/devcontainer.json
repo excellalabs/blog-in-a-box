@@ -1,0 +1,9 @@
+{
+    "name": "blog-in-a-box",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "forwardPorts": [80],
+    "extensions": [
+    ]
+}
