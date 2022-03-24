@@ -6,9 +6,11 @@ A quick, all in one stop for someone to get a blog presence up and running.
 
 The world needs your voice. Good on you for putting it out there.
 
-If you have questions about this project or how to use it, don't hesitate to open an issue (though please check the FAQs in this doc first just ot be sure). We're happy to help you get going.
+## Need Help? Trying to accomplish something but unsure how?
 
-## Should I "fork" this, or copy its contents?
+If you have questions about this project or how to use it, don't hesitate to open an issue (though please check the FAQs in this doc first just ot tobe sure). We're happy to point you in the right direction.
+
+## Should you "fork" this, or copy its contents?
 
 What this heck is this `fork` term?! Don't panic.
 
