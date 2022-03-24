@@ -48,4 +48,5 @@ This project is created to use the following:
 
 | Goal | Within Dev Container | On Local Machine | Notes |
 | ---- | -------------------- | ---------------- | ----- |
-| Local Development (with preview) | `localdev` | `bundle exec jekyll serve --future` | Publishes future posts, so you can see them. Won't happen in normal publishing. |
+| Local Development | `localdev` | `bundle install && bundle exec jekyll serve --future` | Publishes future posts, so you can see them. Won't happen in normal publishing. |
+| Serve | `serve` | `bundle exec jekyll serve --future` | Without gemfile installations.
