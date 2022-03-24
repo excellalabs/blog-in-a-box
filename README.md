@@ -2,11 +2,16 @@
 
 A quick, all in one stop for someone to get a blog presence up and running.
 
+## Congratulations on Getting Started!
+
+The world needs your voice. Good on you for putting it out there.
+
+If you have questions about this project or how to use it, don't hesitate to open an issue (though please check the FAQs in this doc first just ot be sure). We're happy to help you get going.
+
 ## Prerequisites
 
 * Docker (if wanting to use the dev container on your local machine). 
-* Ruby (if not using the dev container)
-* Node (if not using the dev container)
+* If not using the dev container, you'll need Ruby and Node installed locally.
 
 ## The Ingredients
 
