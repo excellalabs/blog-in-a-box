@@ -43,3 +43,9 @@ This project is created to use the following:
 * Update the name within your `devcontainer.json` file to match your blog's name.
 * Go through the [Configuration Guide for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/), and update the `src/_config.yml` file accordingly.
   * We've configured some sensible defaults and added comments where they might be helpful.
+
+### Running Commands
+
+| Goal | Within Dev Container | On Local Machine | Notes |
+| ---- | -------------------- | ---------------- | ----- |
+| Local Development (with preview) | `localdev` | `bundle exec jekyll serve --future` | Publishes future posts, so you can see them. Won't happen in normal publishing. |
