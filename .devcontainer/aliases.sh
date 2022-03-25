@@ -4,6 +4,7 @@
 first_workspace="$(cd /workspaces && ls | head -1)"
 alias gotoworkspace="cd /workspaces/$first_workspace/src"
 alias localdev="gotoworkspace && bundle install && bundle exec jekyll serve --future"
+alias build="gotoworkspace && bundle exec jekyll build"
 alias serve="gotoworkspace && bundle exec jekyll serve --future"
 alias spellcheck="gotoworkspace && cspell --config /workspaces/$first_workspace/cSpell.json /workspaces/$first_workspace/src/**/*.md"
 alias lint="markdownlint -c /workspaces/$first_workspace/.markdownlintrc /workspaces/$first_workspace/src/**/*.md"
