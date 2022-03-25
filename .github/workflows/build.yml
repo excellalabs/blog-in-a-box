@@ -31,8 +31,9 @@ jobs:
       - run: npm install -g cspell
       - run: cspell --config ./cSpell.json --no-progress "src/**/*.md"
   build:
-    runs:
-      using: "docker"
-    image: ".devcontainer/Dockerfile"
-    args:
-      - "build"
+    steps:
+      runs:
+        using: "docker"
+     image: ".devcontainer/Dockerfile"
+     args:
+       - "build"
