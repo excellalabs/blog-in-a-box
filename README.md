@@ -2,7 +2,7 @@
 
 A quick, all in one stop for someone to get a blog presence up and running.
 
-## Congratulations on Getting Started! :tada: :+1:
+## Congratulations on Getting Started! :tada: :+1
 
 The world needs your voice. Good on you for putting it out there.
 
@@ -14,7 +14,7 @@ If you have questions about this project or how to use it, don't hesitate to ope
 
 What this heck is this `fork` term?! Don't panic.
 
-"Forking" is the idea of copying this project into your account, but keeping a link between the project in your account and this oneprojects. In this case, this repository would become the "upstream" repository to yours. 
+"Forking" is the idea of copying this project into your account, but keeping a link between the project in your account and this oneprojects. In this case, this repository would become the "upstream" repository to yours.
 
 This could be useful in some ways. For example, if we update some things, and you wanted to pull those changes in without having to copy & paste them yourself, forking can be a nice way to achieve that. If your project and our project diverge, you might run into some change conflicts when trying to do that. (you can feel free to ask for help if you do!)
 
@@ -22,7 +22,7 @@ If you prefer things to be isolated with no upstream link, you can download the 
 
 ## Prerequisites
 
-* Docker (if wanting to use the dev container on your local machine). 
+* Docker (if wanting to use the dev container on your local machine).
 * If not using the dev container, you'll need Ruby and Node installed locally.
 * A domain name. You don't strictly need one -- you could deploy to `yoursite.githubpages.io`, but we find that with a domain name things just feel snazzier. Prices vary by name. Sean likes [Namecheap](https://namecheap.com) for low cost + ease of use. If you want to search for a name, you could try using [Domainr](https://domainr.com) and see what you come up with.
 
@@ -31,8 +31,8 @@ If you prefer things to be isolated with no upstream link, you can download the 
 This project is created to use the following:
 
 * A dev container. This will allow us to use VSCode to open this project within the dev container we've created, saving you a bunch of setup and hassle.
-    * Alternatively, you can use GitHub Codespaces and do this all in a web browser. (cool, right?!)
-    * Alternatively, you can open this on your local machine as long as you have the dependencies installed.
+  * Alternatively, you can use GitHub Codespaces and do this all in a web browser. (cool, right?!)
+  * Alternatively, you can open this on your local machine as long as you have the dependencies installed.
 * Jekyll -- a popular static site generator
 * Minimal mistakes -- a great, clean Jekyll theme that is highly customizable
 * GitHub Pages -- this is where we assume your site will be deployed. It is free and excellent.
@@ -54,3 +54,4 @@ This project is created to use the following:
 | Serve | `serve` | `bundle exec jekyll serve --future` | Without gemfile installations.
 | Spelling | `spellcheck` | The [cSpell commands](https://www.npmjs.com/package/cspell) | |
 | Linting | `lint` | The [markdownlint-cli commands](https://github.com/igorshubovych/markdownlint-cli) | |
+| Build | `build` | `bundle exec jekyll build` | |
