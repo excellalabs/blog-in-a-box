@@ -1,7 +1,7 @@
 FROM jekyll/jekyll:4
 
 RUN apk add dos2unix
-RUN npm install -g cspell
+RUN npm install -g cspell markdownlint-cli
 
 ENV ENV=/etc/profile
 
