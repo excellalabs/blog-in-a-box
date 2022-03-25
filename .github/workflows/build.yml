@@ -30,10 +30,3 @@ jobs:
           node-version: "14"
       - run: npm install -g cspell
       - run: cspell --config ./cSpell.json --no-progress "src/**/*.md"
-  build:
-    steps:
-      runs:
-        using: "docker"
-     image: ".devcontainer/Dockerfile"
-     args:
-       - "build"
