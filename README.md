@@ -78,6 +78,20 @@ If you do want scheduled posts:
 
 ### Deploying Your Blog
 
+This can get a little tricky so we'll walk through this example with Namecheap and provide some screnshots.
+
+* Add a file to the root of the repository called `CNAME`. The contents of the file should be the domain name or subdomain you're deploying to, e.g. `blog.mysite.com` or `bloginaboxdemo.com`.
+* Save the file, commit it, and merge the change. 
+  * (are these terms completely unfamiliar? That's ok! Feel free to [create an issue in this repository](https://github.com/excellalabs/blog-in-a-box/issues/new) and we'll help you walk through it.)
+
+Next up, it's time to Get the GitHub Pages settings in place.
+
+* In your repository on GitHub, navigate to the `Settings` tab and click it.
+* On the left-hand navigation, choose `Pages` for pages settings.
+* From the `Source` drop-down, select the `main` branch. You can think of this branch like "production". Anything merged into it will get published (unless it's a future post).
+* Change the `Folder` option from `/(root)` to `/docs` and click `Save`.
+* Note: we're _not_ going to choose a theme, because we're already using a theme that comes bundled with our blog.
+
 ## Q & A
 
 ### Why is the blog in a `/docs` folder?
