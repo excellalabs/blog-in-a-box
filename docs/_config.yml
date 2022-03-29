@@ -19,7 +19,7 @@ locale: "en-US"
 title: "Blog in a Box Demo Site"
 title_separator: "-"
 subtitle: "A painless on-ramp to your blogging experience." # site tagline that appears below site title in masthead
-name: "B. Log"
+name: "BlogInABox Demo"
 description: "Blog in a box aims to be your painless on-ramp to a blogging experience, offering sensible defaults, an easy to use development environment, and steps to take you all the way to hosting. We want you to put your voice out there."
 url: "https://bloginaboxdemo.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
