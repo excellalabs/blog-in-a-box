@@ -2,7 +2,7 @@
 
 A quick, all in one stop for someone to get a blog presence up and running.
 
-## Congratulations on Getting Started! :tada: :+1
+## Congratulations on Getting Started! :tada: :+1:
 
 The world needs your voice. Good on you for putting it out there.
 
