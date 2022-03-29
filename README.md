@@ -17,16 +17,7 @@ If you have questions about this project or how to use it, don't hesitate to [op
 * [Prerequisites](docs/_posts/2022-01-03-prerequisites.md)
 * [Getting Started](docs/_posts/2022-01-04-getting-started.md)
 * [Opening the Project for Development](docs/_posts/2022-01-05-opening.md)
-
-### Running Commands
-
-| Goal | Within Dev Container | On Local Machine | Notes |
-| ---- | -------------------- | ---------------- | ----- |
-| Local Development | `localdev` | `bundle install && bundle exec jekyll serve --future` | Publishes future posts, so you can see them. Won't happen in normal publishing. |
-| Serve | `serve` | `bundle exec jekyll serve --future` | Without gemfile installations. Note: You may see an error similar to `initialize': Failed to open TCP connection to codeload.github.com:443 (getaddrinfo: Try again) (SocketError)`; if that happens, try the command once or twice more until it succeeds. |
-| Spelling | `spellcheck` | The [cSpell commands](https://www.npmjs.com/package/cspell) | |
-| Linting | `lint` | The [markdownlint-cli commands](https://github.com/igorshubovych/markdownlint-cli) | |
-| Build | `build` | `bundle exec jekyll build` | |
+* [Running Commands](docs/_posts/2022-01-06-running-commands.md)
 
 ### Setting up Scheduled Posts
 
