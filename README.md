@@ -2,7 +2,7 @@
 
 A quick, all in one stop for someone to get a blog presence up and running.
 
-## Congratulations on Getting Started! :tada: :+1:
+## Congratulations on Getting Started! :tada: :+1
 
 The world needs your voice. Good on you for putting it out there.
 
@@ -30,8 +30,8 @@ If you prefer things to be isolated with no upstream link, you can download the 
 
 This project is created to use the following:
 
-* A dev container. This will allow us to use VSCode to open this project within the dev container we've created, saving you a bunch of setup and hassle.
-  * Alternatively, you can use GitHub Codespaces and do this all in a web browser. (cool, right?!)
+* A dev container. This will allow us to use VSCode to open this project within the dev container we've created, saving you a bunch of setup and hassle. It includes shortcut commands, recommended default extensions to make authoring easier, etc.
+  * Alternatively, you can use GitHub Codespaces and do this all in a web browser. The dev container can be used locally or in a browser. (cool, right?!)
   * Alternatively, you can open this on your local machine as long as you have the dependencies installed.
 * Jekyll -- a popular static site generator
 * Minimal mistakes -- a great, clean Jekyll theme that is highly customizable
@@ -62,7 +62,7 @@ By default, this blog has a GitHub Action that will run to publish every hour. T
 
 You'll need to take one of two actions. If you don't want scheduled posts, delete `scheduled-posts.yml` from the `.github` directory.
 
-If you do want scheduled posts: 
+If you do want scheduled posts:
 
 * You'll need to generate a token called `PAGES_ACCESS_TOKEN` and save it, [as described here](https://seankilleen.com/2020/02/how-to-deploy-github-pages-on-a-schedule-to-publish-future-posts/). The general summary is:
   * Go to [your GitHub tokens settings](https://github.com/settings/tokens)
@@ -81,7 +81,7 @@ If you do want scheduled posts:
 This can get a little tricky so we'll walk through this example with Namecheap and provide some screnshots.
 
 * Add a file to the root of the repository called `CNAME`. The contents of the file should be the domain name or subdomain you're deploying to, e.g. `blog.mysite.com` or `bloginaboxdemo.com`.
-* Save the file, commit it, and merge the change. 
+* Save the file, commit it, and merge the change.
   * (are these terms completely unfamiliar? That's ok! Feel free to [create an issue in this repository](https://github.com/excellalabs/blog-in-a-box/issues/new) and we'll help you walk through it.)
 
 Next up, it's time to Get the GitHub Pages settings in place.
@@ -98,15 +98,15 @@ With those settings in place, next  we need to go to our domain registrar or the
 * Click the "Advanced DNS" button" to go to DNS settings
 * If it's a new domain, remove any default DNS records that are there. Otherwise, be careful what you change (and feel free to ask us for help by [creating an issue](https://github.com/excellalabs/blog-in-a-box/issues/new)).
 * For each of the IP Addresses [in the Apex domain instructions](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site#configuring-an-apex-domain) (at the time, `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`):  
-  * Create a new record, of type `A`. 
-  * Make the host `@` (which is short-hand for the "naked domain"). 
+  * Create a new record, of type `A`.
+  * Make the host `@` (which is short-hand for the "naked domain").
   * Make the value the IP address
   * Repeat for all IP addresses
 * Click to save your changes.
-* Next you'll likely want to create a `www` subdomain so that `www.yoursite.com` and `yoursite.com` go to the same place. 
+* Next you'll likely want to create a `www` subdomain so that `www.yoursite.com` and `yoursite.com` go to the same place.
   * Create a new DNS record, of type `CNAME`. Set the host as `www`, and the value as `yourusername.github.io`. For example, this repo is hosted on the `excellalabs` org, so our value would be `excellalabs.github.io`.
 
-Here's an example of how the DNS records might look: 
+Here's an example of how the DNS records might look:
 
 ![DNS records, both A and CNAME, for bloginaboxdemo.com](readme-images/DNSConfiguration_NakedDomainPlusWWW.png)
 
