@@ -22,7 +22,7 @@ If you prefer things to be isolated with no upstream link, you can download the 
 
 ## Prerequisites
 
-* A GitHub account (you can get one for free)
+* A GitHub account (you can get one for free).
 * Docker (if wanting to use the dev container on your local machine).
 * If not using the dev container, you'll need Ruby and Node installed locally.
 * A domain name. You don't strictly need one -- you could deploy to `yoursite.githubpages.io`, but we find that with a domain name things just feel snazzier. Prices vary by name. Sean likes [Namecheap](https://namecheap.com) for low cost + ease of use. If you want to search for a name, you could try using [Domainr](https://domainr.com) and see what you come up with.
