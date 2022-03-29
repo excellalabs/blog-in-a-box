@@ -16,6 +16,7 @@ If you have questions about this project or how to use it, don't hesitate to [op
 * [The Ingredients](docs/_posts/2022-01-02-the-ingredients.md)
 * [Prerequisites](docs/_posts/2022-01-03-prerequisites.md)
 * [Getting Started](docs/_posts/2022-01-04-getting-started.md)
+* [Opening the Project for Development](docs/_posts/2022-01-05-opening.md)
 
 ### Running Commands
 
@@ -46,28 +47,6 @@ If you do want scheduled posts:
   * Click the `New Repository Secret` button
   * Name the secret `PAGES_ACCESS_TOKEN` and paste the value in.
 * Update the repository value in the `scheduled-posts.yml` file -- instead of `excellalabs/blog-in-a-box`, use your username and repository name.
-
-### Opening the Project for Development
-
-:information_source: Have a challenge with any of this? [Let us know](https://github.com/excellalabs/blog-in-a-box/issues/new) and we'll help!
-
-#### Using VS Code and the Dev Container
-
-* Ensure Docker is started on your machine
-* Open The repository within VS Code on your machine.
-* You may be prompted to reopen in the dev container. If prompted, do that.
-* If not prompted, click in the bottom left corner (the green area) and select `Reopen in Container`.
-
-#### Using GitHub Codespaces
-
-If GitHub Codespaces is enabled, you can open this project and code on it from directly within your web browser!
-
-* Go to your repository on GitHub
-* Click the green `<> Code` button
-* Click the `Codespaces` tab
-* Click `New codespace`
-
-This will open a browser window that will work exactly as if you have a local VS Code instance.
 
 ### Setting up comments using Giscus
 
