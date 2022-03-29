@@ -2,6 +2,10 @@
     "version": "0.1",
     "language": "en",
     "words": [
+        "bloginaboxdemo",
+        "CNAME",
+        "Codespaces",
+        "Namecheap",
         "tada"
     ],
     "ignoreWords": [],

@@ -78,7 +78,7 @@ If you do want scheduled posts:
 
 ### Deploying Your Blog
 
-This can get a little tricky so we'll walk through this example with Namecheap and provide some screnshots.
+This can get a little tricky so we'll walk through this example with Namecheap and provide some screenshots.
 
 * Add a file to the root of the repository called `CNAME`. The contents of the file should be the domain name or subdomain you're deploying to, e.g. `blog.mysite.com` or `bloginaboxdemo.com`.
 * Save the file, commit it, and merge the change.
@@ -110,7 +110,7 @@ Here's an example of how the DNS records might look:
 
 ![DNS records, both A and CNAME, for bloginaboxdemo.com](readme-images/DNSConfiguration_NakedDomainPlusWWW.png)
 
-At this point, your DNS chages should be live soon (they take some time to propagate -- sometimes more than 24 hours). Then, your blog should be available at the URL you configured.
+At this point, your DNS changes should be live soon (they take some time to propagate -- sometimes more than 24 hours). Then, your blog should be available at the URL you configured.
 
 Now we can enforce `HTTPS`, which is important for the security of the web.
 
