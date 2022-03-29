@@ -43,7 +43,7 @@ This project is created to use the following:
 
 * Delete the `CNAME` file -- that one belongs to us so you'll have a conflict if you try to publish and it's still there.
 * Update the name within your `devcontainer.json` file to match your blog's name.
-* Go through the [Configuration Guide for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/), and update the `src/_config.yml` file accordingly.
+* Go through the [Configuration Guide for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/), and update the `docs/_config.yml` file accordingly.
   * We've configured some sensible defaults and added comments where they might be helpful.
 
 ### Running Commands
@@ -75,3 +75,13 @@ If you do want scheduled posts:
   * Click the `New Repository Secret` button
   * Name the secret `PAGES_ACCESS_TOKEN` and paste the value in.
 * Update the repository value in the `scheduled-posts.yml` file -- instead of `excellalabs/blog-in-a-box`, use your username and repository name.
+
+### Deploying Your Blog
+
+## Q & A
+
+### Why is the blog in a `/docs` folder?
+
+GitHub Pages, where we presume you are deploying, has you set up some rules for what can be deployed. If deploying from the main branch, you have two options: `(root)`, or the base directory of the repository, and `/docs`. In our case, we didn't want the other stuff in the root to get confused with the actual blog stuff, so we chose `/docs` because that's the name available that fits into our batteries-included setup with the least amount of fuss.
+
+There are ways to customize this, particularly by using a `gh-pages` branch and creating a GitHub Action to push to it, but we figured that might be over-complicated. Feel free to reach out if you want to set that up and we may follow up with some more on this in the future.
