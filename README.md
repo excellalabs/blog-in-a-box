@@ -48,6 +48,7 @@ This project is created to use the following:
   * We've configured some sensible defaults and added comments where they might be helpful.
 * As you go through the posts in the `_posts` directory, feel free to delete them so that they don't ship with your site.
 * You may want to replace or delete the `/docs/favicon.ico` file, which is currently the Excella logo.
+* You may want to set comments in `docs/_config.yaml` from `giscus` to `false` temporarily, until you follow the docs below to set up Giscus commenting.
 
 ### Running Commands
 
