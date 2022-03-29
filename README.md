@@ -99,7 +99,7 @@ With those settings in place, next  we need to go to our domain registrar or the
 * If it's a new domain, remove any default DNS records that are there. Otherwise, be careful what you change (and feel free to ask us for help by [creating an issue](https://github.com/excellalabs/blog-in-a-box/issues/new)).
 * For each of the IP Addresses [in the Apex domain instructions](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site#configuring-an-apex-domain) (at the time, `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`):  
   * Create a new record, of type `A`.
-  * Make the host `@` (which is short-hand for the "naked domain").
+  * Make the host `@` (which is short-hand for the "naked domain", or `yoursite.com`).
   * Make the value the IP address
   * Repeat for all IP addresses
 * Click to save your changes.
