@@ -97,10 +97,20 @@ With those settings in place, next  we need to go to our domain registrar or the
 * Log into Namecheap and go to the domain's settings.
 * Click the "Advanced DNS" button" to go to DNS settings
 * If it's a new domain, remove any default DNS records that are there. Otherwise, be careful what you change (and feel free to ask us for help by [creating an issue](https://github.com/excellalabs/blog-in-a-box/issues/new)).
-* Create a new record, of type `CNAME`, make the host `@` (which is short-hand for the "naked domain"). Make the value your github username and append `.github.io`. For example, this project is under the `excellalabs` org, so we'd use `excellalabs.github.io`.
+* For each of the IP Addresses [in the Apex domain instructions](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site#configuring-an-apex-domain) (at the time, `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`):  
+  * Create a new record, of type `A`. 
+  * Make the host `@` (which is short-hand for the "naked domain"). 
+  * Make the value the IP address
+  * Repeat for all IP addresses
 * Click to save your changes.
+* Next you'll likely want to create a `www` subdomain so that `www.yoursite.com` and `yoursite.com` go to the same place. 
+  * Create a new DNS record, of type `CNAME`. Set the host as `www`, and the value as `yourusername.github.io`. For example, this repo is hosted on the `excellalabs` org, so our value would be `excellalabs.github.io`.
 
-At this point, your DNS chages should be live soon (they take some time to propagate), and then your blog should be available at the URL you configured.
+Here's an example of how the DNS records might look: 
+
+![DNS records, both A and CNAME, for bloginaboxdemo.com](readme-images/DNSConfiguration_NakedDomainPlusWWW.png)
+
+At this point, your DNS chages should be live soon (they take some time to propagate -- sometimes more than 24 hours). Then, your blog should be available at the URL you configured.
 
 Now we can enforce `HTTPS`, which is important for the security of the web.
 
