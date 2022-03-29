@@ -43,7 +43,7 @@ This project is created to use the following:
 
 * Delete the `CNAME` file -- that one belongs to us so you'll have a conflict if you try to publish and it's still there.
 * Update the name within your `devcontainer.json` file to match your blog's name.
-* Go through the [Configuration Guide for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/), and update the `src/_config.yml` file accordingly.
+* Go through the [Configuration Guide for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/), and update the `docs/_config.yml` file accordingly.
   * We've configured some sensible defaults and added comments where they might be helpful.
 
 ### Running Commands
