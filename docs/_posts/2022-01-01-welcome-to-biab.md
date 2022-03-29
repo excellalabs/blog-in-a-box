@@ -1,5 +1,5 @@
 ---
-title:  "Welcome to Jekyll!"
+title:  "Congratulations on Getting Started!"
 date:   2022-01-01 00:00:00 -0500
 categories: jekyll update
 ---
