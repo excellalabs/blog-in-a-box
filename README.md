@@ -12,10 +12,10 @@ If you have questions about this project or how to use it, don't hesitate to [op
 
 ## Topics
 
-* [Should you fork this or copy it?](_posts/2022-01-01-welcome-to-biab.md)
-* [The Ingredients](_posts/2022-01-02-the-ingredients.md)
-* [Prerequisites](_posts/2022-01-03-prerequisites.md)
-* [Getting Started](_posts/2022-01-04-getting-started.md)
+* [Should you fork this or copy it?](docs/_posts/2022-01-01-welcome-to-biab.md)
+* [The Ingredients](docs/_posts/2022-01-02-the-ingredients.md)
+* [Prerequisites](docs/_posts/2022-01-03-prerequisites.md)
+* [Getting Started](docs/_posts/2022-01-04-getting-started.md)
 
 ### Running Commands
 
