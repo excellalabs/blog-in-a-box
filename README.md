@@ -8,48 +8,14 @@ The world needs your voice. Good on you for putting it out there.
 
 ## Need Help? Trying to accomplish something but unsure how?
 
-If you have questions about this project or how to use it, don't hesitate to open an issue (though please check the FAQs in this doc first just ot tobe sure). We're happy to point you in the right direction.
+If you have questions about this project or how to use it, don't hesitate to [open an issue](https://github.com/excellalabs/blog-in-a-box/issues/new) (though please check the FAQs in this doc first just ot tobe sure). We're happy to point you in the right direction.
 
-## Should you "fork" this, or copy its contents?
+## Topics
 
-What this heck is this `fork` term?! Don't panic.
-
-"Forking" is the idea of copying this project into your account, but keeping a link between the project in your account and this project. In this case, this repository would become the "upstream" repository to yours.
-
-This could be useful in some ways. For example, if we update some things, and you wanted to pull those changes in without having to copy & paste them yourself, forking can be a nice way to achieve that. If your project and our project diverge, you might run into some change conflicts when trying to do that. (you can feel free to ask for help if you do!)
-
-If you prefer things to be isolated with no upstream link, you can download the contents of this repository and copy all the files into your repository. We recommend checking back for updates and we're happy to help you work through ay upgrade pains you have.
-
-## Prerequisites
-
-* A GitHub account (you can get one for free).
-* Docker (if wanting to use the dev container on your local machine).
-* If not using the dev container, you'll need Ruby and Node installed locally.
-* A domain name. You don't strictly need one -- you could deploy to `yoursite.githubpages.io`, but we find that with a domain name things just feel snazzier. Prices vary by name. Sean likes [Namecheap](https://namecheap.com) for low cost + ease of use. If you want to search for a name, you could try using [Domainr](https://domainr.com) and see what you come up with.
-* [VS Code](https://code.visualstudio.com/) for development.
-
-## The Ingredients
-
-This project is created to use the following:
-
-* A dev container. This will allow us to use VSCode to open this project within the dev container we've created, saving you a bunch of setup and hassle. It includes shortcut commands, recommended default extensions to make authoring easier, etc.
-  * Alternatively, you can use GitHub Codespaces and do this all in a web browser. The dev container can be used locally or in a browser. (cool, right?!)
-  * Alternatively, you can open this on your local machine as long as you have the dependencies installed.
-* Jekyll -- a popular static site generator
-* Minimal mistakes -- a great, clean Jekyll theme that is highly customizable
-* GitHub Pages -- this is where we assume your site will be deployed. It is free and excellent.
-
-## Using This Project to Make Your Own Blog
-
-### Getting Started
-
-* Delete the `CNAME` file -- that one belongs to us so you'll have a conflict if you try to publish and it's still there. We'll walk through steps to set this up later.
-* Update the name within your `devcontainer.json` file to match your blog's name.
-* Go through the [Configuration Guide for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/), and update the `docs/_config.yml` file accordingly.
-  * We've configured some sensible defaults and added comments where they might be helpful.
-* As you go through the posts in the `_posts` directory, feel free to delete them so that they don't ship with your site.
-* You may want to replace or delete the `/docs/favicon.ico` file, which is currently the Excella logo.
-* You may want to set comments in `docs/_config.yaml` from `giscus` to `false` temporarily, until you follow the docs below to set up Giscus commenting.
+* [Should you fork this or copy it?](_posts/2022-01-01-welcome-to-biab.md)
+* [The Ingredients](_posts/2022-01-02-the-ingredients.md)
+* [Prerequisites](_posts/2022-01-03-prerequisites.md)
+* [Getting Started](_posts/2022-01-04-getting-started.md)
 
 ### Running Commands
 
