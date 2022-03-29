@@ -198,6 +198,7 @@ You can set up deployments by:
 * On your account dashboard, Under `Sites`, click `Add a New Site` and then `Import an existing project`.
 * Connect Netlify to your github account and repository on the next page to allow Netlify to "see" your repository.
 * Set the base directory as `docs` to correspond to our `docs` folder
+* Set the publish directory to `docs/_site`, the default output for our Jekyll build.
 * Set the build command to `bundle exec jekyll build --future`. This ensures the build will publish future posts as well, which will be important if you want to preview a future post that you're authoring or scheduling.
 * Click "Deploy site". Netlify will do the rest.
 
