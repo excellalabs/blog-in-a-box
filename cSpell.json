@@ -2,9 +2,9 @@
     "version": "0.1",
     "language": "en",
     "words": [
+        "tada"
     ],
-    "ignoreWords": [
-    ],
+    "ignoreWords": [],
     "ignoreRegExpList": [
         "\\((.*)\\)", // Markdown links
         "uid: (.*)", // uid lines,
