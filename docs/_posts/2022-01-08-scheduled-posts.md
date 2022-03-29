@@ -1,6 +1,6 @@
 ---
 title:  "Setting up Scheduled Posts"
-date:   2022-01-07 00:00:00 -0500
+date:   2022-01-08 00:00:00 -0500
 categories: jekyll update
 ---
 
