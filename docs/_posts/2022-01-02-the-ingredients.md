@@ -4,6 +4,8 @@ date:   2022-01-02 00:00:00 -0500
 categories: jekyll update
 ---
 
+:information_source: Have a challenge with any of this? [Let us know](https://github.com/excellalabs/blog-in-a-box/issues/new) and we'll help!
+
 This project is created to use the following:
 
 * **A dev container**. This will allow us to use VSCode to open this project within the dev container we've created, saving you a bunch of setup and hassle. It includes shortcut commands, recommended default extensions to make authoring easier, etc.

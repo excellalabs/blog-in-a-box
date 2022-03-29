@@ -4,6 +4,8 @@ date:   2022-01-01 00:00:00 -0500
 categories: jekyll update
 ---
 
+:information_source: Have a challenge with any of this? [Let us know](https://github.com/excellalabs/blog-in-a-box/issues/new) and we'll help!
+
 ## Congratulations on Getting Started! :tada: :+1:
 
 The world needs your voice. Good on you for putting it out there.

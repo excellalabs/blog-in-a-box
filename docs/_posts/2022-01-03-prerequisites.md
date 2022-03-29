@@ -4,6 +4,8 @@ date:   2022-01-03 00:00:00 -0500
 categories: jekyll update
 ---
 
+:information_source: Have a challenge with any of this? [Let us know](https://github.com/excellalabs/blog-in-a-box/issues/new) and we'll help!
+
 * A GitHub account (you can get one for free).
 * Docker (if wanting to use the dev container on your local machine).
 * If not using the dev container, you'll need Ruby and Node installed locally.
