@@ -22,6 +22,7 @@ If you prefer things to be isolated with no upstream link, you can download the 
 
 ## Prerequisites
 
+* A GitHub account (you can get one for free).
 * Docker (if wanting to use the dev container on your local machine).
 * If not using the dev container, you'll need Ruby and Node installed locally.
 * A domain name. You don't strictly need one -- you could deploy to `yoursite.githubpages.io`, but we find that with a domain name things just feel snazzier. Prices vary by name. Sean likes [Namecheap](https://namecheap.com) for low cost + ease of use. If you want to search for a name, you could try using [Domainr](https://domainr.com) and see what you come up with.
@@ -172,6 +173,20 @@ We don't want to merge something that could break things for us, so we want to "
 A screenshot of what the settings might look like :
 
 > ![Branch protection settings for the main branch](readme-images/BranchProtection.png)
+
+### Updating to a later version of our theme
+
+This blog setup uses the [minimal mistakes theme](https://github.com/mmistakes/minimal-mistakes).
+
+In the `docs/_config.yml` file, you'll see the line `remote_theme: "mmistakes/minimal-mistakes@4.24.0"` (at the time of this writing). This means we're using release `v4.24.0` of the theme.
+
+From time to time, the theme may be updated and you'll see the update on [its releases page](https://github.com/mmistakes/minimal-mistakes/releases). If you want to be notified of updates, you can [go to the theme repository home page](https://github.com/mmistakes/minimal-mistakes), select `Watch --> Custom --> Releases`, which will subscribe you to release notifications.
+
+If you want to update to a release, we recommend you:
+
+* Read the release notes, which will contain information on breaking changes, upgrade steps, etc.
+* Note the version number on the release tag
+* Update the `_config.yml` to update the version in the `remote_theme` variable.
 
 ## Q & A
 
