@@ -14,7 +14,7 @@ If you have questions about this project or how to use it, don't hesitate to ope
 
 What this heck is this `fork` term?! Don't panic.
 
-"Forking" is the idea of copying this project into your account, but keeping a link between the project in your account and this oneprojects. In this case, this repository would become the "upstream" repository to yours.
+"Forking" is the idea of copying this project into your account, but keeping a link between the project in your account and this project. In this case, this repository would become the "upstream" repository to yours.
 
 This could be useful in some ways. For example, if we update some things, and you wanted to pull those changes in without having to copy & paste them yourself, forking can be a nice way to achieve that. If your project and our project diverge, you might run into some change conflicts when trying to do that. (you can feel free to ask for help if you do!)
 
