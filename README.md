@@ -25,6 +25,7 @@ If you prefer things to be isolated with no upstream link, you can download the 
 * Docker (if wanting to use the dev container on your local machine).
 * If not using the dev container, you'll need Ruby and Node installed locally.
 * A domain name. You don't strictly need one -- you could deploy to `yoursite.githubpages.io`, but we find that with a domain name things just feel snazzier. Prices vary by name. Sean likes [Namecheap](https://namecheap.com) for low cost + ease of use. If you want to search for a name, you could try using [Domainr](https://domainr.com) and see what you come up with.
+* [VS Code](https://code.visualstudio.com/) for development.
 
 ## The Ingredients
 
@@ -75,6 +76,28 @@ If you do want scheduled posts:
   * Click the `New Repository Secret` button
   * Name the secret `PAGES_ACCESS_TOKEN` and paste the value in.
 * Update the repository value in the `scheduled-posts.yml` file -- instead of `excellalabs/blog-in-a-box`, use your username and repository name.
+
+### Opening the Project for Development
+
+:information_source: Have a challenge with any of this? [Let us know](https://github.com/excellalabs/blog-in-a-box/issues/new) and we'll help!
+
+#### Using VS Code and the Dev Container
+
+* Ensure Docker is started on your machine
+* Open The repository within VS Code on your machine.
+* You may be prompted to reopen in the dev container. If prompted, do that.
+* If not prompted, click in the bottom left corner (the green area) and select `Reopen in Container`.
+
+#### Using GitHub Codespaces
+
+If GitHub Codespaces is enabled, you can open this project and code on it from directly within your web browser!
+
+* Go to your repository on GitHub
+* Click the green `<> Code` button
+* Click the `Codespaces` tab
+* Click `New codespace`
+
+This will open a browser window that will work exactly as if you have a local VS Code instance.
 
 ### Deploying Your Blog
 
