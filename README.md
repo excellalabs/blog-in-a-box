@@ -188,6 +188,20 @@ If you want to update to a release, we recommend you:
 * Note the version number on the release tag
 * Update the `_config.yml` to update the version in the `remote_theme` variable.
 
+### Adding a live preview of pull requests using Netlify
+
+[Netlify](https://www.netlify.com/) is a phenomenal service for building and hosting web content similar to GitHub Pages (in fact, the capabilities go quite a bit beyond GitHub Pages for many scenarios). For our purposes, Netlify can be very useful to add automated previews so you can see your blog changes before they're live. Netlify allows public blogs and processes to use these services for free, and we're grateful to them for doing so.
+
+You can set up deployments by:
+
+* Creating a free Netlify account
+* On your account dashboard, Under `Sites`, click `Add a New Site` and then `Import an existing project`.
+* Connect Netlify to your github account and repository on the next page to allow Netlify to "see" your repository.
+* Set the base directory as `docs` to correspond to our `docs` folder
+* Set the publish directory to `docs/_site`, the default output for our Jekyll build.
+* Set the build command to `bundle exec jekyll build --future`. This ensures the build will publish future posts as well, which will be important if you want to preview a future post that you're authoring or scheduling.
+* Click "Deploy site". Netlify will do the rest.
+
 ## Q & A
 
 ### Why is the blog in a `/docs` folder?
