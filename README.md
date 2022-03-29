@@ -18,6 +18,7 @@ If you have questions about this project or how to use it, don't hesitate to [op
 * [Getting Started](docs/_posts/2022-01-04-getting-started.md)
 * [Opening the Project for Development](docs/_posts/2022-01-05-opening.md)
 * [Running Commands](docs/_posts/2022-01-06-running-commands.md)
+* [Protecting Your Branch to ensure build steps run](docs/_posts/2022-01-07-protecting-your-branches.md)
 
 ### Setting up Scheduled Posts
 
@@ -92,23 +93,6 @@ Now we can enforce `HTTPS`, which is important for the security of the web.
 
 * Go back to the GitHub Pages settings
 * Check the `Enforce HTTPS` option. You'll see a green checkmark after it automatically saves.
-
-### Protecting Your Branch to ensure build steps run
-
-We don't want to merge something that could break things for us, so we want to "protect" our `main` branch and ensure that the GitHub Actions pass before something can be merged.
-
-* Go to your repository's settings
-* On the left-hand navigation, click `Branches`.
-* Under the `Branch protection rules` section, click `Add rule`.
-* For `branch name pattern`, specify `main`, which is the default branch for the project.
-* If you'd like, check off `Require a pull request before merging`. This means that you can't just push changes to the main branch. A PR helps organize things and ensure that all checks complete.
-* Check the box for `Require status checks to pass before merging`. Search for `spellchecking`, `Markdown linting`, and `build` and click on them to add them.
-* Modify any other settings that might be of interest to you.
-* Save the settings.
-
-A screenshot of what the settings might look like :
-
-> ![Branch protection settings for the main branch](readme-images/BranchProtection.png)
 
 ### Updating to a later version of our theme
 
