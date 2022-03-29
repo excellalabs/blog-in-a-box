@@ -18,7 +18,7 @@ jobs:
       - name: Lint Code Base
         uses: docker://avtodev/markdown-lint:v1
         with:
-          args: "src/**/*.md"
+          args: "docs/**/*.md"
   spellchecking:
     runs-on: ubuntu-latest
     steps:
@@ -29,7 +29,7 @@ jobs:
         with:
           node-version: "14"
       - run: npm install -g cspell
-      - run: cspell --config ./cSpell.json --no-progress "src/**/*.md"
+      - run: cspell --config ./cSpell.json --no-progress "docs/**/*.md"
   build:
     runs-on: ubuntu-latest
     steps:
@@ -37,5 +37,5 @@ jobs:
         name: Check out the code
       - uses: actions/jekyll-build-pages@v1.0.2
         with: 
-          source: ./src
-          destination: ./src/_site
+          source: ./docs
+          destination: ./docs/_site
