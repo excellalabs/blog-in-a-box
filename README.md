@@ -47,6 +47,7 @@ This project is created to use the following:
 * Go through the [Configuration Guide for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/), and update the `docs/_config.yml` file accordingly.
   * We've configured some sensible defaults and added comments where they might be helpful.
 * As you go through the posts in the `_posts` directory, feel free to delete them so that they don't ship with your site.
+* You may want to replace or delete the `/docs/favicon.ico` file, which is currently the Excella logo.
 
 ### Running Commands
 
