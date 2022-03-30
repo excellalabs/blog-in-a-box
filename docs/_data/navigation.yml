@@ -1,0 +1,10 @@
+# Site navigation links
+main:
+- title: About
+  url: /about/
+
+- title: All Posts
+  url: /posts/
+
+- title: Excella Labs
+  url: https://excellalabs.com
