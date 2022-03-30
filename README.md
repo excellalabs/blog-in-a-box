@@ -26,6 +26,7 @@ We've published these topics as individual blog posts so that they have their ow
 * [Adding a live preview of pull requests using Netlify](https://bloginaboxdemo.com/2022/01/netlify-preview/)
 * [Deploying Your Blog](https://bloginaboxdemo.com/2022/01/deploying/)
 * [Updating to a later version of our theme](https://bloginaboxdemo.com/2022/01/updating-theme/)
+* [Updating navigation inks](https://bloginaboxdemo.com/2022/01/updating-nav-links/)
 
 ## Q & A
 
