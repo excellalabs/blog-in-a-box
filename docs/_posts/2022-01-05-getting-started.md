@@ -14,3 +14,16 @@ excerpt: ""
 * You may want to replace or delete the `/docs/favicon.ico` file, which is currently the Excella logo.
 * You may want to set comments in `docs/_config.yaml` from `giscus` to `false` temporarily, until you follow the docs below to set up Giscus commenting.
 * You may want to update the `paginate` setting in `docs/_config.yml` to `5` (default) or something less than the `50` we've set it to for demo purposes.
+
+## How to Subscribe to Updates of This Tool
+
+Occasionally, we might update some things or add some new default functionality that you might find useful.
+
+When we do that, we'll publish [a release](https://github.com/excellalabs/blog-in-a-box/releases).
+
+You can subscribe to those releases so that you'll know when new things are coming. To do that:
+
+* Head to this project's GitHub URL: <https://github.com/excellalabs/blog-in-a-box>
+* In the buttons at the top right, click the drop-down for the `Watch` menu, select `Custom`, and then check `Releases`. 
+
+Now you'll be notified if we release anything, along with the release notes.
