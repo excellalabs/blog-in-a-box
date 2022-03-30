@@ -8,7 +8,7 @@ The world needs your voice. Good on you for putting it out there.
 
 ## Need Help? Trying to accomplish something but unsure how?
 
-If you have questions about this project or how to use it, don't hesitate to [open an issue](https://github.com/excellalabs/blog-in-a-box/issues/new) (though please check the FAQs in this doc first just ot tobe sure). We're happy to point you in the right direction.
+If you have questions about this project or how to use it, don't hesitate to [open an issue](https://github.com/excellalabs/blog-in-a-box/issues/new) (though please check the FAQs in this doc first just ot tobe sure). We're happy to point you in the right direction. No question is too simple, and asking it will only help us all get better.
 
 ## Topics
 
