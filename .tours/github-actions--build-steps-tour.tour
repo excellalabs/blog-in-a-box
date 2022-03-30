@@ -1,5 +1,81 @@
 {
   "$schema": "https://aka.ms/codetour-schema",
   "title": "GitHub Actions / Build Steps Tour",
-  "steps": []
+  "steps": [
+    {
+      "file": ".github/workflows/build.yml",
+      "description": "We use GitHub Actions to check our pull requests before publishing and to do some cleanup. We'll give you a tour of what these files are and do.",
+      "line": 1
+    },
+    {
+      "file": ".github/workflows/build.yml",
+      "description": "For our build process, we ensure it runs on any pull request against the main branch, and on anything that is merged into the main branch.",
+      "line": 3,
+      "selection": {
+        "start": {
+          "line": 3,
+          "character": 1
+        },
+        "end": {
+          "line": 4,
+          "character": 1
+        }
+      }
+    },
+    {
+      "file": ".github/workflows/build.yml",
+      "description": "We have several jobs that run in parallel to save some time.",
+      "line": 11
+    },
+    {
+      "file": ".github/workflows/build.yml",
+      "description": "The first job we have is for markdown linting. This checks out the code and then uses a published github action to run the same markdown linter that we use in our editor.",
+      "line": 12
+    },
+    {
+      "file": ".markdownlintrc",
+      "description": "Jumping over to this file for a second, the `.markdownlintrc` file. This is used by the GitHub Action to get the rules for the markdown linting.",
+      "line": 1,
+      "selection": {
+        "start": {
+          "line": 1,
+          "character": 1
+        },
+        "end": {
+          "line": 6,
+          "character": 2
+        }
+      }
+    },
+    {
+      "file": ".markdownlint.json",
+      "description": "We also have this `.markdownlint.json` file, with the same rules, because that's used by the VSCode extension that helps give us support in the editor.",
+      "line": 1
+    },
+    {
+      "file": ".github/workflows/build.yml",
+      "description": "Next up, we have spellchecking. This action installs node, installs the same cSpell tool that we use for spellchecking, and runs the same spellcheck command we run. It also passes the `--no-progress` flag, because otherwise we'd have very verbose build output that doesn't really add value.",
+      "line": 22
+    },
+    {
+      "file": ".github/workflows/build.yml",
+      "description": "Lastly, we rely on an already published github action to build the Jekyll site, which ensures we won't have any trouble after merging.",
+      "line": 33
+    },
+    {
+      "file": ".github/workflows/scheduled-posts.yml",
+      "description": "We also want you to be able to schedule posts. The way we achieve this is by using a GitHub action to periodically kick off a build (in this case, every hour). If you've committed a post in the future, and this build runs after the post's publish date, it'll get published automatically.\n\nNOTE: You do need to set up the `PAGES_ACCESS_TOKEN` value and to update the repo URL here, which we cover in the setup guide.",
+      "line": 1
+    },
+    {
+      "file": ".github/workflows/delete-merged-pr-branches.yml",
+      "description": "Keeping branches tidy is one of those things that's really easy to forget. Before long, you have a bunch of stale branches lying around that have already been merged, and you have to go clean them all up.\n\nThis helps us delete the branch associated with a pull request once it's closed.",
+      "line": 1
+    },
+    {
+      "file": ".github/delete-merged-branch-config.yml",
+      "description": "We also make sure that we don't delete the `main` branch.",
+      "line": 1
+    }
+  ]
 }
