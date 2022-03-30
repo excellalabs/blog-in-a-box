@@ -87,6 +87,5 @@
       "description": "This is the aliases file. We use this to create some \"shortcuts\". When you open the terminal within the devcontainer, you can for example type `build` rather than the longer jekyll build statement. The aliases commands tend to ensure that you're in the right folder within the container as well.",
       "line": 1
     }
-  ],
-  "ref": "main"
+  ]
 }
