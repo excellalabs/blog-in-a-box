@@ -10,6 +10,7 @@
         "mdickin.markdown-shortcuts", 
         "davidanson.vscode-markdownlint",
         "redhat.vscode-yaml",
-        "vsls-contrib.codetour"
+        "vsls-contrib.codetour",
+        "github.vscode-pull-request-github"
     ]
 }
