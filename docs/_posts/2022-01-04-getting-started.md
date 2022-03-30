@@ -14,3 +14,4 @@ excerpt: ""
 * As you go through the posts in the `_posts` directory, feel free to delete them so that they don't ship with your site.
 * You may want to replace or delete the `/docs/favicon.ico` file, which is currently the Excella logo.
 * You may want to set comments in `docs/_config.yaml` from `giscus` to `false` temporarily, until you follow the docs below to set up Giscus commenting.
+* You may want to update the `paginate` setting in `docs/_config.yml` to `5` (default) or something less than the `50` we've set it to for demo purposes.
