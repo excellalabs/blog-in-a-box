@@ -1,7 +1,6 @@
 ---
 title:  "Running commands"
 date:   2022-01-06 00:00:00 -0500
-categories: jekyll update
 excerpt: ""
 ---
 

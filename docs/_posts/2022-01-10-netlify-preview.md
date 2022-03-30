@@ -1,7 +1,6 @@
 ---
 title:  "Adding a live preview of pull requests using Netlify"
 date:   2022-01-10 00:00:00 -0500
-categories: jekyll update
 excerpt: ""
 ---
 
