@@ -12,6 +12,8 @@ If you have questions about this project or how to use it, don't hesitate to [op
 
 ## Topics
 
+We've published these topics as individual blog posts so that they have their own space, and also to exercise our creation a little bit.
+
 * [Should you fork this or copy it?](docs/_posts/2022-01-01-welcome-to-biab.md)
 * [The Ingredients](docs/_posts/2022-01-02-the-ingredients.md)
 * [Prerequisites](docs/_posts/2022-01-03-prerequisites.md)
