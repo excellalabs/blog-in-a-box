@@ -14,11 +14,11 @@ If you have questions about this project or how to use it, don't hesitate to [op
 
 We've published these topics as individual blog posts so that they have their own space, and also to exercise our creation a little bit.
 
-* [Should you fork this or copy it?](docs/_posts/2022-01-01-welcome-to-biab.md)
-* [The Ingredients](docs/_posts/2022-01-02-the-ingredients.md)
-* [Prerequisites](docs/_posts/2022-01-03-prerequisites.md)
-* [Getting Started](docs/_posts/2022-01-04-getting-started.md)
-* [Opening the Project for Development](docs/_posts/2022-01-05-opening.md)
+* [Should you fork this or copy it?](https://bloginaboxdemo.com/2022/01/welcome-to-biab/)
+* [The Ingredients](https://bloginaboxdemo.com/2022/01/the-ingredients/)
+* [Prerequisites](https://bloginaboxdemo.com/2022/01/prerequisites/)
+* [Getting Started](https://bloginaboxdemo.com/2022/01/getting-started/)
+* [Opening the Project for Development](https://bloginaboxdemo.com/2022/01/opening/)
 * [Running Commands](docs/_posts/2022-01-06-running-commands.md)
 * [Protecting Your Branch to ensure build steps run](docs/_posts/2022-01-07-protecting-your-branches.md)
 * [Setting up Scheduled Posts](docs/_posts/2022-01-08-scheduled-posts.md)
