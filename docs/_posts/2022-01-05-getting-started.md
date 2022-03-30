@@ -1,6 +1,6 @@
 ---
 title:  "Getting Started"
-date:   2022-01-04 00:00:00 -0500
+date:   2022-01-05 00:00:00 -0500
 categories: jekyll update
 excerpt: ""
 ---
