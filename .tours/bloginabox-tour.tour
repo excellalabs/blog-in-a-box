@@ -1,0 +1,62 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "BlogInABox Tour",
+  "steps": [
+    {
+      "file": ".devcontainer/devcontainer.json",
+      "description": "Blog in a box is made to run in something called a \"dev container\". This means that all of the dependencies -- ruby, jekyll, the right version of node, the tooling packages -- are all wrapped up in a container that you can open this code in. You can do that within VS Code, or you can do it via GitHub Codespaces and develop in the browser, all while getting the same consistent tooling.",
+      "line": 2
+    },
+    {
+      "file": ".devcontainer/devcontainer.json",
+      "description": "We have a custom Docker file that we use to create our dev container. We'll get to that in a little bit.",
+      "line": 4
+    },
+    {
+      "file": ".devcontainer/devcontainer.json",
+      "description": "Our dev container forwards port `4000`, because this is the port that Jekyll serves on. This allows that port to be accessible to the outside world (if you allow it to be), so that you can preview your site locally, etc.",
+      "line": 6
+    },
+    {
+      "file": ".devcontainer/devcontainer.json",
+      "description": "We have a number of extensions we will install by default in the dev container because we believe they'll be helpful to you. We'll explain each of them below.",
+      "line": 7
+    },
+    {
+      "file": ".devcontainer/devcontainer.json",
+      "description": "This extension will highlight spelling errors and allow you to add words to the dictionary. Our build process uses the same tool to check for spelling errors, so this helps you prevent any issues right in the editor at composition time.",
+      "line": 8
+    },
+    {
+      "file": ".devcontainer/devcontainer.json",
+      "description": "This helps you see what indent line you're on because each indent gets a different color.",
+      "line": 9
+    },
+    {
+      "file": ".devcontainer/devcontainer.json",
+      "description": "Markdown shortcuts allow you to use the command pallette in VS Code (`CTRL + Shift + P` on Windows) to do things like convert a list of text to bullets, etc. etc. -- it makes the editing experience a little easier working with Markdown.",
+      "line": 10
+    },
+    {
+      "file": ".devcontainer/devcontainer.json",
+      "description": "This is the extension that surfaces issues with Markdown formatting within your files. This is the same tooling that the build process uses to check for errors, and it allows you to correct them right within the editor.",
+      "line": 11
+    },
+    {
+      "file": ".devcontainer/devcontainer.json",
+      "description": "If you have to edit a YAML file, this helps you find errors / issues in your formatting.",
+      "line": 12
+    },
+    {
+      "file": ".devcontainer/devcontainer.json",
+      "description": "This extension is for Code Tours, which is what this guidance is. :) ",
+      "line": 13
+    },
+    {
+      "file": ".devcontainer/devcontainer.json",
+      "description": "An extension that allows you to sign into Github and create pull requests without leaving the editor.",
+      "line": 14
+    }
+  ],
+  "ref": "main"
+}
