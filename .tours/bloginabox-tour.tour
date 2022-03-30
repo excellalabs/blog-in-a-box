@@ -1,6 +1,6 @@
 {
   "$schema": "https://aka.ms/codetour-schema",
-  "title": "BlogInABox Tour",
+  "title": "Dev Container Tour",
   "steps": [
     {
       "file": ".devcontainer/devcontainer.json",
