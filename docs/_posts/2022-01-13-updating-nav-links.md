@@ -1,6 +1,6 @@
 ---
 title:  "Updating Navigation Links"
-date:   2022-01-12 00:00:00 -0500
+date:   2022-01-13 00:00:00 -0500
 excerpt: ""
 ---
 
