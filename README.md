@@ -17,15 +17,15 @@ We've published these topics as individual blog posts so that they have their ow
 * [Should you fork this or copy it?](https://bloginaboxdemo.com/2022/01/welcome-to-biab/)
 * [The Ingredients](https://bloginaboxdemo.com/2022/01/the-ingredients/)
 * [Prerequisites](https://bloginaboxdemo.com/2022/01/prerequisites/)
-* [Getting Started](https://bloginaboxdemo.com/2022/01/getting-started/)
 * [Opening the Project for Development](https://bloginaboxdemo.com/2022/01/opening/)
-* [Running Commands](docs/_posts/2022-01-06-running-commands.md)
-* [Protecting Your Branch to ensure build steps run](docs/_posts/2022-01-07-protecting-your-branches.md)
-* [Setting up Scheduled Posts](docs/_posts/2022-01-08-scheduled-posts.md)
-* [Setting up comments using Giscus](docs/_posts/2022-01-09-giscus-comments.md)
-* [Adding a live preview of pull requests using Netlify](docs/_posts/2022-01-10-netlify-preview.md)
-* [Deploying Your Blog](docs/_posts/2022-01-11-deploying.md)
-* [Updating to a later version of our theme](docs/_posts/2022-01-12-updating-theme.md)
+* [Getting Started](https://bloginaboxdemo.com/2022/01/getting-started/)
+* [Running Commands](https://bloginaboxdemo.com/2022/01/running-commands/)
+* [Protecting Your Branch to ensure build steps run](https://bloginaboxdemo.com/2022/01/protecting-your-branch/)
+* [Setting up Scheduled Posts](https://bloginaboxdemo.com/2022/01/scheduled-posts/)
+* [Setting up comments using Giscus](https://bloginaboxdemo.com/2022/01/giscus-comments/)
+* [Adding a live preview of pull requests using Netlify](https://bloginaboxdemo.com/2022/01/netlify-preview/)
+* [Deploying Your Blog](https://bloginaboxdemo.com/2022/01/deploying/)
+* [Updating to a later version of our theme](https://bloginaboxdemo.com/2022/01/updating-theme/)
 
 ## Q & A
 
