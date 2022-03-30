@@ -1,17 +1,16 @@
 ---
-layout: page
+layout: single
 title: About
 permalink: /about/
+author_profile: true
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+This is an [Excella Labs](https://excellalabs.com/) project. We created it because we love developers and modern delivery.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+BlogInABox is a repository that aims to be a quick, all in one stop for someone to get a blog presence up and running.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+It relies on [Jekyll](https://jekyllrb.com/), the [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes) Theme, [GitHub Pages](https://pages.github.com/) for hosting, and [GitHub Actions](https://github.com/features/actions) for builds and automation.
 
-[jekyll-organization]: https://github.com/jekyll
+We created it because we want you to be able to put your voice out there, because it's valuable.
+
+:information_source: Have a challenge with any of this? [Let us know](https://github.com/excellalabs/blog-in-a-box/issues/new) and we'll help!
