@@ -37,7 +37,7 @@ With those settings in place, next  we need to go to our domain registrar or the
 
 Here's an example of how the DNS records might look:
 
-![DNS records, both A and CNAME, for bloginaboxdemo.com](readme-images/DNSConfiguration_NakedDomainPlusWWW.png)
+![DNS records, both A and CNAME, for bloginaboxdemo.com](/assets/images/intro-posts/DNSConfiguration_NakedDomainPlusWWW.png)
 
 At this point, your DNS changes should be live soon (they take some time to propagate -- sometimes more than 24 hours). Then, your blog should be available at the URL you configured.
 

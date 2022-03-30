@@ -20,4 +20,4 @@ We don't want to merge something that could break things for us, so we want to "
 
 A screenshot of what the settings might look like :
 
-> ![Branch protection settings for the main branch](readme-images/BranchProtection.png)
+> ![Branch protection settings for the main branch](/assets/images/intro-posts/BranchProtection.png)
