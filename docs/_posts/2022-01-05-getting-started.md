@@ -24,6 +24,6 @@ When we do that, we'll publish [a release](https://github.com/excellalabs/blog-i
 You can subscribe to those releases so that you'll know when new things are coming. To do that:
 
 * Head to this project's GitHub URL: <https://github.com/excellalabs/blog-in-a-box>
-* In the buttons at the top right, click the drop-down for the `Watch` menu, select `Custom`, and then check `Releases`. 
+* In the buttons at the top right, click the drop-down for the `Watch` menu, select `Custom`, and then check `Releases`.
 
 Now you'll be notified if we release anything, along with the release notes.
