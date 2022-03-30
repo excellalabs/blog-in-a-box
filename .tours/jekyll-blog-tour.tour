@@ -77,5 +77,6 @@
       "description": "This is an example that combines some Jekyll with our theme. Jekyll allows you to use include files. Our theme, Minimal Mistakes, creates an include called `footer.html`. By placing this file here, we are overriding the default `footer.html` that comes with the theme. \n\nAnytime we create a file with the same name in the same location as a theme, it overrides the theme.",
       "line": 1
     }
-  ]
+  ],
+  "isPrimary": true
 }
