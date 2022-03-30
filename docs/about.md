@@ -2,6 +2,7 @@
 layout: single
 title: About
 permalink: /about/
+author_profile: true
 ---
 
 This is an [Excella Labs](https://excellalabs.com/) project. We created it because we love developers and modern delivery.
