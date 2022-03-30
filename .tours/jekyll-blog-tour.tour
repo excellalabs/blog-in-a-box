@@ -1,0 +1,82 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Jekyll Blog tour",
+  "steps": [
+    {
+      "file": "docs/_config.yml",
+      "description": "BlogInABox uses Jekyll and the `minimal-mistakes` theme to configure things.\n\nWe'll call out some aspects of how the blog is currently set up, starting here. Jekyll and the theme both use this `_config.yml` file to specify how the blog works.",
+      "line": 5
+    },
+    {
+      "file": "docs/_config.yml",
+      "description": "This specifies the name of the theme and the version. We specify in a blog post how to think about and upgrade the theme.\n\nWe pin the theme to a specific version so that future releases will not affect your environment without your choosing to update.",
+      "line": 13
+    },
+    {
+      "file": "docs/_config.yml",
+      "description": "We set this to false by default, so that your posts dated in the future will not be published by accident.",
+      "line": 17
+    },
+    {
+      "file": "docs/_config.yml",
+      "description": "You'll want to set this repository identifier to whatever is the correct one for your site.",
+      "line": 26
+    },
+    {
+      "file": "docs/_config.yml",
+      "description": "By default, we supply comments via Giscus, which uses GitHub discussions. A blog post on the demo site goes into more detail about how to set this up.",
+      "line": 33
+    },
+    {
+      "file": "docs/_config.yml",
+      "description": "You'll modify these values for your particular Giscus instance, should you choose to use Giscus.",
+      "line": 46
+    },
+    {
+      "file": "docs/_config.yml",
+      "description": "By default, you have an RSS feed localted at `feed.xml` which will allow folks to subscribe to your posts.",
+      "line": 60
+    },
+    {
+      "file": "docs/_config.yml",
+      "description": "GFM means \"GitHub Flavored Markdown\". If you search for guides to that online, you'll find out how to format markdown for your blog posts. GFM is pretty popular so it's a good recommended default.",
+      "line": 197
+    },
+    {
+      "file": "docs/_config.yml",
+      "description": "BlogInABox uses this format by default but it's very customizable to your needs. In our case, this means that a post file titled `2022-03-15-my-post.md` will have a URL of `/2022/03/my-post/`.",
+      "line": 212
+    },
+    {
+      "file": "docs/_config.yml",
+      "description": "This is the amount of posts to show on the home page. We set it to a large number so we can show all of our demo introductory blog posts. You'll probably want to set it to something smaller like `5` or `10`.",
+      "line": 213
+    },
+    {
+      "file": "docs/_config.yml",
+      "description": "This helps us set some defaults without you having to specify it on each individual post. These values will be added to the front-matter of every post by default. You can change them on a post-by-post basis.",
+      "line": 275
+    },
+    {
+      "file": "docs/_config.yml",
+      "description": "This shows the author information on the left-hand side.",
+      "line": 277
+    },
+    {
+      "file": "docs/_config.yml",
+      "description": "This shows the \"read time\", or amount of time it's assumed one will read an article.",
+      "line": 278
+    },
+    {
+      "file": "docs/CNAME",
+      "description": "This is the `CNAME` file. If you're hosting this blog at a domain of your own, you'll end up putting that domain in this file. We have guide to this on the demo site.",
+      "line": 1
+    },
+    {
+      "file": "docs/_includes/footer.html",
+      "description": "This is an example that combines some Jekyll with our theme. Jekyll allows you to use include files. Our theme, Minimal Mistakes, creates an include called `footer.html`. By placing this file here, we are overriding the default `footer.html` that comes with the theme. \n\nAnytime we create a file with the same name in the same location as a theme, it overrides the theme.",
+      "line": 1
+    }
+  ],
+  "isPrimary": true
+}
