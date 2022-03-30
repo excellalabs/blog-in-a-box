@@ -1,7 +1,6 @@
 ---
 title:  "Setting up comments using Giscus"
 date:   2022-01-09 00:00:00 -0500
-categories: jekyll update
 excerpt: ""
 ---
 

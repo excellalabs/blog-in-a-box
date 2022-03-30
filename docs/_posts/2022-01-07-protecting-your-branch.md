@@ -1,7 +1,6 @@
 ---
 title:  "Protecting Your Branch to ensure build steps run"
 date:   2022-01-07 00:00:00 -0500
-categories: jekyll update
 excerpt: ""
 ---
 

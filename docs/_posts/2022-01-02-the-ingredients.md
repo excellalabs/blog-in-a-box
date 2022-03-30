@@ -1,7 +1,6 @@
 ---
 title:  "The Ingredients"
 date:   2022-01-02 00:00:00 -0500
-categories: jekyll update
 excerpt: ""
 ---
 
