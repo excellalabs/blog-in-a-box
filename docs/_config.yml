@@ -16,14 +16,14 @@ minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "n
 # Site Settings
 future: false # whether to publish future posts by default
 locale: "en-US"
-title: "Blog in a Box Demo Site"
+title: "TechnicalJourneys.com"
 title_separator: "-"
-subtitle: "A painless on-ramp to your blogging experience." # site tagline that appears below site title in masthead
-name: "BlogInABox Demo"
-description: "Blog in a box aims to be your painless on-ramp to a blogging experience, offering sensible defaults, an easy to use development environment, and steps to take you all the way to hosting. We want you to put your voice out there."
-url: "https://bloginaboxdemo.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+subtitle: "A wonderful journey via technology" # site tagline that appears below site title in masthead
+name: "TechnicalJourneys.com"
+description: "A longer description for our site."
+url: "https://technicaljourneys.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
-repository: "excellalabs/blog-in-a-box" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository: "seankilleen/technicaljourneys.com" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo: # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title: # overrides the website title displayed in the masthead, use " " for no title
@@ -79,7 +79,7 @@ baidu_site_verification:
 
 # Social Sharing
 twitter:
-  username: excellalabs
+  username: sjkilleen
 facebook:
   username:
   app_id:
@@ -101,30 +101,24 @@ analytics:
 
 # Site Author
 author:
-  name: "Author Name"
+  name: "Sean Killeen"
   avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio: "I am an **amazing** person."
-  location: "The Interwebs"
-  email: # Add your e-mail here to add it to the author info.
+  bio: "Just another dev in the world."
+  location: "Arlington, VA"
+  email: "SeanKilleen@gmail.com" # Add your e-mail here to add it to the author info.
   links: # NOTE: You can add custom links here as well. You can use a label and font-awesome class
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:your.name@email.com"
+      url: "mailto:SeanKilleen@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://bloginaboxdemo.com"
+      url: "https://seankilleen.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/excellalabs"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+      url: "https://twitter.com/sjkilleen"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/excellalabs"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://github.com/SeanKilleen"
 
 # Site Footer
 footer:
