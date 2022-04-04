@@ -12,7 +12,7 @@ excerpt: ""
 
 ## Recommended Steps
 
-* Enable GitHub Actions. We use several actions on the project, and when you fork the repository, you'll need to enable these actions to run (as a security measure that GitHub rightly takes). In the top menu in your repository, click `Actions`. You'll see a green button that says `I understand my workflows, go ahead and enable them`. Click that button. 
+* Enable GitHub Actions. We use several actions on the project, and when you fork the repository, you'll need to enable these actions to run (as a security measure that GitHub rightly takes). In the top menu in your repository, click `Actions`. You'll see a green button that says `I understand my workflows, go ahead and enable them`. Click that button.
 * Delete the `CNAME` file -- that one belongs to us so you'll have a conflict if you try to publish and it's still there. We'll walk through steps to set this up later.
 * Go through the [Configuration Guide for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/), and update the `docs/_config.yml` file accordingly.
   * We've configured some sensible defaults and added comments where they might be helpful.
