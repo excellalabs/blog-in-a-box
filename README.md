@@ -10,6 +10,10 @@ The world needs your voice. Good on you for putting it out there.
 
 If you have questions about this project or how to use it, don't hesitate to [open an issue](https://github.com/excellalabs/blog-in-a-box/issues/new) (though please check the FAQs in this doc first just ot tobe sure). We're happy to point you in the right direction. No question is too simple, and asking it will only help us all get better.
 
+## Video Introduction
+
+[![Watch the video](https://img.youtube.com/vi/g6Cec7DoH4A/default.jpg)](https://youtu.be/g6Cec7DoH4A)
+
 ## Topics
 
 We've published these topics as individual blog posts so that they have their own space, and also to exercise our creation a little bit.
