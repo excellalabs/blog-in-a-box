@@ -6,8 +6,6 @@ excerpt: ""
 
 :information_source: Have a challenge with any of this? [Let us know](https://github.com/excellalabs/blog-in-a-box/issues/new) and we'll help!
 
-###
-
 The "minimal mistakes" theme that this ships with allows for a number of different comment set ups. But out of the box, we wanted to enable a quick path comments for your sites.
 
 [Giscus](https://giscus.app/) allows you to use the GitHub Discussions feature, which comes built into GitHub for your repository, to host comments on your blog. To set up Giscus comments:
