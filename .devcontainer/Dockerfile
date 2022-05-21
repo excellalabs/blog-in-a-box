@@ -51,8 +51,7 @@ RUN apk update && \
 #################################################################
 
 # TODO: Extract nodejs package version into env variable up top
-RUN apk upgrade && \
-    apk add --repository http://dl-cdn.alpinelinux.org/alpine/edge/main/ nodejs=16.15.0-r1 npm 
+RUN apk -UvX http://dl-4.alpinelinux.org/alpine/edge/main add -u nodejs=16.15.0-r1 npm
 
 RUN apk add dos2unix
 RUN npm install -g cspell markdownlint-cli
