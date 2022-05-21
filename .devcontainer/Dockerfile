@@ -23,6 +23,7 @@ ENV VERSION=v16.15.0 NPM_VERSION=latest YARN_VERSION=latest
 
 RUN apk update && \
     apk --update add \
+    git \
     gcc \
     g++ \
     make \
