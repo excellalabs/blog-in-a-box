@@ -21,7 +21,7 @@ ENV NODE_VERSION=v16.15.0 NPM_VERSION=latest YARN_VERSION=latest
 #             Installling Base Stuff                 #
 ######################################################
 
-RUN apk update && \
+RUN apk update && apk upgrade && \
     apk --update add \
     git \
     gcc \
