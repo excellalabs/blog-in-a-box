@@ -84,7 +84,7 @@ RUN curl -sSLO https://nodejs.org/dist/${NODE_VERSION}/node-${NODE_VERSION}.tar.
     /usr/lib/node_modules/npm/doc /usr/lib/node_modules/npm/html /usr/lib/node_modules/npm/scripts
 
 RUN apk add dos2unix
-# RUN npm install -g cspell markdownlint-cli
+RUN npm install -g cspell markdownlint-cli
 
 ENV ENV=/etc/profile
 
