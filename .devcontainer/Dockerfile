@@ -50,7 +50,7 @@ RUN apk update && \
 #                  Installing node                              #
 #################################################################
 
-RUN apk add nodejs=16.15.0-r1
+RUN apk add --repository http://dl-cdn.alpinelinux.org/alpine/edge/main/ nodejs=16.15.0-r1 npm
 
 RUN apk add dos2unix
 RUN npm install -g cspell markdownlint-cli
