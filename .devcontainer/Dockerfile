@@ -51,7 +51,7 @@ RUN apk update && \
 # For base builds
 ENV CONFIG_FLAGS="--fully-static --without-npm" DEL_PKGS="libstdc++" RM_DIRS=/usr/include
 
-RUN apk add --no-cache curl make gcc g++ python linux-headers binutils-gold libstdc++ 
+RUN apk add --no-cache linux-headers binutils-gold libstdc++ 
 # RUN curl -sSLO https://nodejs.org/dist/${VERSION}/node-${VERSION}.tar.xz && \
 #     curl -sSL https://nodejs.org/dist/${VERSION}/SHASUMS256.txt.asc | \
 #     grep " node-${VERSION}.tar.xz\$" | sha256sum -c | grep . && \
