@@ -40,6 +40,7 @@ RUN apk update && \
     ruby-dev \
     libc-dev && \
     # echo 'gem: --no-document' > /etc/gemrc && \
+    gem install bundler
     gem install github-pages --version ${GH_PAGES_VERSION} && \
     gem install jekyll-watch && \
     gem install jekyll-admin 
