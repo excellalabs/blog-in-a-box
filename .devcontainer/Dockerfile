@@ -54,6 +54,9 @@ RUN apk update && apk upgrade && \
 RUN apk -UvX http://dl-4.alpinelinux.org/alpine/edge/main add -u nodejs=16.15.0-r1 npm
 
 RUN apk add dos2unix
+
+RUN node -v
+RUN npm -v
 RUN npm install -g cspell markdownlint-cli
 
 ENV ENV=/etc/profile
