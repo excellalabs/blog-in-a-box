@@ -15,7 +15,7 @@ WORKDIR /docs
 ENV GH_PAGES_VERSION=226
 
 # Node
-ENV VERSION=v16.15.0 NPM_VERSION=latest YARN_VERSION=latest
+ENV NODE_VERSION=v16.15.0 NPM_VERSION=latest YARN_VERSION=latest
 
 ######################################################
 #             Installling Base Stuff                 #
@@ -54,11 +54,11 @@ RUN apk update && \
 ENV CONFIG_FLAGS="--fully-static --without-npm" DEL_PKGS="libstdc++" RM_DIRS=/usr/include
 
 RUN apk add --no-cache linux-headers binutils-gold libstdc++ 
-# RUN curl -sSLO https://nodejs.org/dist/${VERSION}/node-${VERSION}.tar.xz && \
-#     curl -sSL https://nodejs.org/dist/${VERSION}/SHASUMS256.txt.asc | \
-#     grep " node-${VERSION}.tar.xz\$" | sha256sum -c | grep . && \
-#     tar -xf node-${VERSION}.tar.xz && \
-#     cd node-${VERSION} && \
+# RUN curl -sSLO https://nodejs.org/dist/${NODE_VERSION}/node-${NODE_VERSION}.tar.xz && \
+#     curl -sSL https://nodejs.org/dist/${NODE_VERSION}/SHASUMS256.txt.asc | \
+#     grep " node-${NODE_VERSION}.tar.xz\$" | sha256sum -c | grep . && \
+#     tar -xf node-${NODE_VERSION}.tar.xz && \
+#     cd node-${NODE_VERSION} && \
 #     ./configure --prefix=/usr ${CONFIG_FLAGS} && \
 #     make -j$(getconf _NPROCESSORS_ONLN) && \
 #     make install && \
@@ -79,7 +79,7 @@ RUN apk add --no-cache linux-headers binutils-gold libstdc++
 #     fi; \
 #     fi && \
 #     apk del curl make gcc g++ python linux-headers binutils-gold  ${DEL_PKGS} && \
-#     rm -rf ${RM_DIRS} /node-${VERSION}* /usr/share/man /tmp/* /var/cache/apk/* \
+#     rm -rf ${RM_DIRS} /node-${NODE_VERSION}* /usr/share/man /tmp/* /var/cache/apk/* \
 #     /root/.npm /root/.node-gyp /usr/lib/node_modules/npm/man \
 #     /usr/lib/node_modules/npm/doc /usr/lib/node_modules/npm/html /usr/lib/node_modules/npm/scripts
 
