@@ -21,8 +21,8 @@ ENV NODE_VERSION=v16.15.0 NPM_VERSION=latest YARN_VERSION=latest
 #             Installling Base Stuff                 #
 ######################################################
 
-RUN apt-get update && apt-get upgrade && \
-    apt-get add \
+RUN apt-get -y update && apt-get -y upgrade && \
+    apt-get -y add \
     git \
     gcc \
     g++ \
@@ -53,7 +53,7 @@ RUN apt-get update && apt-get upgrade && \
 # TODO: Extract nodejs package version into env variable up top
 #RUN apk -UvX http://dl-4.alpinelinux.org/alpine/edge/main add -u nodejs=16.15.0-r1 npm
 
-RUN apt-get install dos2unix
+RUN apt-get -y install dos2unix
 
 #RUN node -v
 #RUN npm -v
