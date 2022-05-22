@@ -21,8 +21,8 @@ ENV NODE_VERSION=v16.15.0 NPM_VERSION=latest YARN_VERSION=latest
 #             Installling Base Stuff                 #
 ######################################################
 
-RUN apk update && apk upgrade && \
-    apk --update add \
+RUN apt-get update && apt-get upgrade && \
+    apt-get add \
     git \
     gcc \
     g++ \
@@ -51,13 +51,13 @@ RUN apk update && apk upgrade && \
 #################################################################
 
 # TODO: Extract nodejs package version into env variable up top
-RUN apk -UvX http://dl-4.alpinelinux.org/alpine/edge/main add -u nodejs=16.15.0-r1 npm
+#RUN apk -UvX http://dl-4.alpinelinux.org/alpine/edge/main add -u nodejs=16.15.0-r1 npm
 
-RUN apk add dos2unix
+RUN apt-get install dos2unix
 
-RUN node -v
-RUN npm -v
-RUN npm install -g cspell markdownlint-cli
+#RUN node -v
+#RUN npm -v
+#RUN npm install -g cspell markdownlint-cli
 
 ENV ENV=/etc/profile
 
