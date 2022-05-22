@@ -4,7 +4,7 @@
 # Using dependency references from https://pages.github.com/versions/
 
 # 2.7.3 is GitHub Pages 226 compatible
-FROM ruby:2.7.3-alpine  
+FROM ruby:2.7.3-slim-buster
 
 LABEL maintainer="Sean Killeen <SeanKilleen@gmail.com>"
 
