@@ -35,7 +35,7 @@ RUN apt-get -y install \
     ruby-dev \
     ruby-nokogiri \
     libc-dev
-    
+
 RUN gem install bundler && \
     gem install github-pages --version ${GH_PAGES_VERSION} && \
     gem install jekyll-watch && \
@@ -45,14 +45,13 @@ RUN gem install bundler && \
 #                  Installing node                              #
 #################################################################
 
-# TODO: Extract nodejs package version into env variable up top
-#RUN apk -UvX http://dl-4.alpinelinux.org/alpine/edge/main add -u nodejs=16.15.0-r1 npm
-
 RUN apt-get -y install dos2unix
 
-#RUN node -v
-#RUN npm -v
-#RUN npm install -g cspell markdownlint-cli
+# TODO: Install node
+
+RUN node -v
+RUN npm -v
+RUN npm install -g cspell markdownlint-cli
 
 ENV ENV=/etc/profile
 
