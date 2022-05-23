@@ -21,7 +21,8 @@ ENV NODE_VERSION=v16.15.0 NPM_VERSION=latest YARN_VERSION=latest
 #             Installling Base Stuff                 #
 ######################################################
 
-RUN apt-get -y update && apt-get -y upgrade 
+RUN apt-get -y update && apt-get -y upgrade
+
 RUN apt-get -y install \
     git \
     # gcc \
@@ -34,7 +35,7 @@ RUN apt-get -y install \
     # glib-dev \
     # zlib-dev \
     ruby-dev \
-    ruby-nokogiri \
+    ruby-nokogiri
     # libc-dev
 RUN gem install bundler && \
     gem install github-pages --version ${GH_PAGES_VERSION} && \
