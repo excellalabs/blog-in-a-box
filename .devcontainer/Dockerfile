@@ -15,7 +15,7 @@ WORKDIR /docs
 ENV GH_PAGES_VERSION=226
 
 # Node
-ENV NODE_VERSION=v16.15.0 NPM_VERSION=latest YARN_VERSION=latest
+ENV NODE_VERSION=16.15.0 NPM_VERSION=latest YARN_VERSION=latest
 
 ######################################################
 #             Installling Base Stuff                 #
@@ -48,6 +48,8 @@ RUN gem install bundler && \
 RUN apt-get -y install dos2unix
 
 # TODO: Install node
+
+RUN apt-get -y install nodejs=${NODE_VERSION}
 
 RUN node -v
 RUN npm -v
