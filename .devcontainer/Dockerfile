@@ -56,11 +56,11 @@ RUN node -v
 RUN npm -v
 RUN npm install -g cspell markdownlint-cli
 
-ENV ENV=/etc/profile
-
-COPY aliases.sh /etc/profile.d/alias.sh
+COPY aliases.sh /etc/devcontainer/alias.sh
 
 # Coverts CRLF based files (such as those on windows devices) to LF line endings for container
-RUN dos2unix /etc/profile.d/alias.sh
+RUN dos2unix /etc/devcontainer/alias.sh
+
+ENV BASH_ENV="/etc/devcontainer"
 
 EXPOSE 4000
