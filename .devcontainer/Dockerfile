@@ -22,7 +22,7 @@ ENV NODE_VERSION=v16.15.0 NPM_VERSION=latest YARN_VERSION=latest
 ######################################################
 
 RUN apt-get -y update && apt-get -y upgrade 
-RUN apt-get -y add \
+RUN apt-get -y install \
     git \
     # gcc \
     # g++ \
