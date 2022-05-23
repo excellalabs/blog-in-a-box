@@ -33,7 +33,7 @@ RUN apt-get -y install \
     # tzdata \
     # glib-dev \
     # zlib-dev \
-    ruby-dev
+    ruby-dev \
     ruby-nokogiri \
     # libc-dev
 RUN gem install bundler && \
