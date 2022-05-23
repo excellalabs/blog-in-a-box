@@ -33,11 +33,8 @@ RUN apt-get -y install \
     # tzdata \
     # glib-dev \
     # zlib-dev \
-    ruby-rdoc \
-    ruby-irb \
-    ruby-bundler \
-    ruby-nokogiri \
     ruby-dev
+    ruby-nokogiri \
     # libc-dev
 RUN gem install bundler && \
     gem install github-pages --version ${GH_PAGES_VERSION} && \
