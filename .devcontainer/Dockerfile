@@ -21,30 +21,28 @@ ENV NODE_VERSION=v16.15.0 NPM_VERSION=latest YARN_VERSION=latest
 #             Installling Base Stuff                 #
 ######################################################
 
-RUN apt-get -y update && apt-get -y upgrade && \
-    apt-get -y add \
+RUN apt-get -y update && apt-get -y upgrade 
+RUN apt-get -y add \
     git \
-    gcc \
-    g++ \
-    make \
-    curl \
-    bison \
-    ca-certificates \
-    tzdata \
-    glib-dev \
-    zlib-dev \
+    # gcc \
+    # g++ \
+    # make \
+    # curl \
+    # bison \
+    # ca-certificates \
+    # tzdata \
+    # glib-dev \
+    # zlib-dev \
     ruby-rdoc \
     ruby-irb \
     ruby-bundler \
     ruby-nokogiri \
-    ruby-dev \
-    libc-dev && \
-    # echo 'gem: --no-document' > /etc/gemrc && \
-    gem install bundler && \
+    ruby-dev
+    # libc-dev
+RUN gem install bundler && \
     gem install github-pages --version ${GH_PAGES_VERSION} && \
     gem install jekyll-watch && \
     gem install jekyll-admin 
-
 
 #################################################################
 #                  Installing node                              #
