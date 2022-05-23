@@ -12,12 +12,10 @@ VOLUME /docs
 WORKDIR /docs
 
 ENV GH_PAGES_VERSION=226
-
-# Node
-ENV NODE_MAJOR_VERSION=16 NPM_VERSION=latest YARN_VERSION=latest
+ENV NODE_MAJOR_VERSION=16
 
 ######################################################
-#             Installling Base Stuff                 #
+#             Installling Base + Ruby Stuff          #
 ######################################################
 
 RUN apt-get -y update && apt-get -y upgrade
