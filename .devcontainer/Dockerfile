@@ -1,10 +1,9 @@
-# Adapted from https://github.com/madduci/docker-github-pages/blob/master/Dockerfile
-# Adapted from https://github.com/AyushyaChitransh/Nodejs_and_ruby_alpine/blob/master/dockerfile
+# Adapted from https://github.com/timbru31/docker-ruby-node/blob/master/2.7/16/Dockerfile
 
 # Using dependency references from https://pages.github.com/versions/
 
 # 2.7.3 is GitHub Pages 226 compatible
-FROM ruby:2.7.3-slim-buster
+FROM ruby:2.7.3
 
 LABEL maintainer="Sean Killeen <SeanKilleen@gmail.com>"
 
@@ -47,7 +46,13 @@ RUN gem install bundler && \
 
 RUN apt-get -y install dos2unix
 
-RUN curl -sL https://deb.nodesource.com/setup_${NODE_MAJOR_VERSION}.x | bash -
+RUN curl -sL https://deb.nodesource.com/setup_16.x | bash -\
+  && apt-get update -qq && apt-get install -qq --no-install-recommends \
+    nodejs \
+  && apt-get upgrade -qq \
+  && apt-get clean \
+  && rm -rf /var/lib/apt/lists/*\
+  && npm install -g yarn@1
 
 RUN node -v
 RUN npm -v
