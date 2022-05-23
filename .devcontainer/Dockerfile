@@ -25,18 +25,17 @@ RUN apt-get -y update && apt-get -y upgrade
 
 RUN apt-get -y install \
     git \
-     gcc \
-     g++ \
-     make \
-     curl \
-     bison \
-     ca-certificates \
-     tzdata \
-     glib-dev \
-     zlib-dev \
+    gcc \
+    g++ \
+    make \
+    curl \
+    bison \
+    ca-certificates \
+    tzdata \
     ruby-dev \
     ruby-nokogiri \
-     libc-dev
+    libc-dev
+    
 RUN gem install bundler && \
     gem install github-pages --version ${GH_PAGES_VERSION} && \
     gem install jekyll-watch && \
