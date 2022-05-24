@@ -61,6 +61,71 @@
       "file": ".devcontainer/aliases.sh",
       "description": "This is the aliases file. We use this to create some \"shortcuts\". When you open the terminal within the devcontainer, you can for example type `build` rather than the longer jekyll build statement. The aliases commands tend to ensure that you're in the right folder within the container as well.",
       "line": 1
+    },
+    {
+      "file": ".devcontainer/Dockerfile",
+      "description": "Our Dockerfile is what actually builds and drives the development environment.\n\nWe previously pulled from the official Jekyll images, but found those to not be nearly as flexible as we needed them to be.\n\nSo now, we pull from the base Ruby image, at a version compatible with GitHub pages. We then install node and our packages into that images ourselves.\n\nIn the future, we'll probably move this into its own container so that it won't have to build each time, and thus dev environments will start much faster.",
+      "line": 1
+    },
+    {
+      "file": ".devcontainer/Dockerfile",
+      "description": "Here, we use the `ARG` command -- this lets us set a variable at build time to specify the ruby version. ",
+      "line": 5
+    },
+    {
+      "file": ".devcontainer/Dockerfile",
+      "description": "This pulls the container from the official ruby container at the specified version.",
+      "line": 8
+    },
+    {
+      "file": ".devcontainer/Dockerfile",
+      "description": "We also set variables for GH Pages and the node major version. The goal is to use the GitHub pages dependency and try to keep all the things synced up for the right versions.",
+      "line": 10
+    },
+    {
+      "file": ".devcontainer/Dockerfile",
+      "description": "Feel free to reach out to me anytime via https://SeanKilleen.com as well.",
+      "line": 13
+    },
+    {
+      "file": ".devcontainer/Dockerfile",
+      "description": "Ensures we can do git stuff in the dev container",
+      "line": 26
+    },
+    {
+      "file": ".devcontainer/Dockerfile",
+      "description": "Ensures we have updated time zone info.",
+      "line": 27
+    },
+    {
+      "file": ".devcontainer/Dockerfile",
+      "description": "`dos2unix` is used to make sure our alias file, which might be edited on Windows, always has the appropriate character encoding in unix environments.",
+      "line": 28
+    },
+    {
+      "file": ".devcontainer/Dockerfile",
+      "description": "Here's where we install node, passing the major version we want to the curl URL for nodesource.",
+      "line": 36
+    },
+    {
+      "file": ".devcontainer/Dockerfile",
+      "description": "We do this just to ensure we know what versions we're using in the container. Just a reference for us at build time more than anything.",
+      "line": 44
+    },
+    {
+      "file": ".devcontainer/Dockerfile",
+      "description": "We copy the aliases to the profile directory. Initially we thought this would automatically add them, but it does not, which is all good. We still keep them there just because it seems like a fine place for them.",
+      "line": 48
+    },
+    {
+      "file": ".devcontainer/Dockerfile",
+      "description": "Here, we add our alias file to the bash profile. This way, when an interactive prompt shows up, the aliases will already be loaded, and you can type `localdev` or `spellcheck`, etc. and have it just work.",
+      "line": 53
+    },
+    {
+      "file": ".devcontainer/Dockerfile",
+      "description": "We expose port `4000` here because that's what Jekyll runs on by default. This will ensure that the Jekyll _inside_ the container can get _outside_ the container, which allows the Codespaces dev container to host it on a web site that you can visit.",
+      "line": 55
     }
   ]
 }
