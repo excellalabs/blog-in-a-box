@@ -58,31 +58,6 @@
       "line": 14
     },
     {
-      "file": ".devcontainer/Dockerfile",
-      "description": "For the devcontainer, we pull from the standard Docker container, which uses Alpine Linux as its base.",
-      "line": 1
-    },
-    {
-      "file": ".devcontainer/Dockerfile",
-      "description": "We install global tools for spellcheck and markdown into the container so you can run the same build tooling via aliases that we use in the GitHub actions check. We'll see that in the aliases file soon.",
-      "line": 4,
-      "selection": {
-        "start": {
-          "line": 9,
-          "character": 1
-        },
-        "end": {
-          "line": 11,
-          "character": 37
-        }
-      }
-    },
-    {
-      "file": ".devcontainer/Dockerfile",
-      "description": "We use `dos2linux` to convert the alias file. This lets us edit it on Windows (which uses CRLF formatting) and pull it into the container (which is LF formatting) without causing any issues. This way it keeps it invisible to you, the user.",
-      "line": 11
-    },
-    {
       "file": ".devcontainer/aliases.sh",
       "description": "This is the aliases file. We use this to create some \"shortcuts\". When you open the terminal within the devcontainer, you can for example type `build` rather than the longer jekyll build statement. The aliases commands tend to ensure that you're in the right folder within the container as well.",
       "line": 1
