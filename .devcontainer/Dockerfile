@@ -1,18 +1,20 @@
 # Adapted from https://github.com/timbru31/docker-ruby-node/blob/master/2.7/16/Dockerfile
 
+ENV RUBY_VERSION=2.7.3
+ENV GH_PAGES_VERSION=226
+ENV NODE_MAJOR_VERSION=16
+
+
 # Using dependency references from https://pages.github.com/versions/
 
 # 2.7.3 is GitHub Pages 226 compatible
-FROM ruby:2.7.3
+FROM ruby:${RUBY_VERSION}
 
 LABEL maintainer="Sean Killeen <SeanKilleen@gmail.com>"
 
 VOLUME /docs
 
 WORKDIR /docs
-
-ENV GH_PAGES_VERSION=226
-ENV NODE_MAJOR_VERSION=16
 
 ######################################################
 #             Installling Base + Ruby Stuff          #
@@ -44,7 +46,7 @@ RUN gem install bundler && \
 
 RUN apt-get -y install dos2unix
 
-RUN curl -sL https://deb.nodesource.com/setup_16.x | bash -\
+RUN curl -sL https://deb.nodesource.com/setup_${NODE_MAJOR_VERSION}.x | bash -\
   && apt-get update -qq && apt-get install -qq --no-install-recommends \
     nodejs \
   && apt-get upgrade -qq \
