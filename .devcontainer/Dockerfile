@@ -1,14 +1,14 @@
 # Adapted from https://github.com/timbru31/docker-ruby-node/blob/master/2.7/16/Dockerfile
 
-ENV RUBY_VERSION=2.7.3
-ENV GH_PAGES_VERSION=226
-ENV NODE_MAJOR_VERSION=16
-
+ARG RUBY_VERSION=2.7.3
 
 # Using dependency references from https://pages.github.com/versions/
 
 # 2.7.3 is GitHub Pages 226 compatible
 FROM ruby:${RUBY_VERSION}
+
+ARG GH_PAGES_VERSION=226
+ARG NODE_MAJOR_VERSION=16
 
 LABEL maintainer="Sean Killeen <SeanKilleen@gmail.com>"
 
