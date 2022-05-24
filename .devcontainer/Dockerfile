@@ -25,15 +25,15 @@ RUN apt-get -y update && apt-get -y upgrade
 RUN apt-get -y install \
     git \
     gcc \
-    g++ \
+#    g++ \
     make \
     curl \
-    bison \
+#    bison \
     ca-certificates \
     tzdata \
-    ruby-dev \
-    ruby-nokogiri \
-    libc-dev
+#    ruby-dev \
+#    ruby-nokogiri \
+#    libc-dev
 
 RUN gem install bundler && \
     gem install github-pages --version ${GH_PAGES_VERSION} && \
