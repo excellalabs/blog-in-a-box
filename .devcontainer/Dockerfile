@@ -20,7 +20,7 @@ WORKDIR /docs
 #             Installling Base + Ruby Stuff          #
 ######################################################
 
-RUN apt-get -y update && apt-get -y upgrade
+RUN apt-get -y update
 
 RUN apt-get -y install \
     git \
@@ -28,18 +28,14 @@ RUN apt-get -y install \
     make \
     curl \
     ca-certificates \
-    tzdata
+    tzdata \
+    dos2unix
 
-RUN gem install bundler && \
-    gem install github-pages --version ${GH_PAGES_VERSION} && \
-    gem install jekyll-watch && \
-    gem install jekyll-admin 
+RUN gem install bundler
 
 #################################################################
 #                  Installing node                              #
 #################################################################
-
-RUN apt-get -y install dos2unix
 
 RUN curl -sL https://deb.nodesource.com/setup_${NODE_MAJOR_VERSION}.x | bash -\
   && apt-get update -qq && apt-get install -qq --no-install-recommends \
