@@ -30,7 +30,7 @@ RUN apt-get -y install \
     curl \
 #    bison \
     ca-certificates \
-    tzdata \
+    tzdata
 #    ruby-dev \
 #    ruby-nokogiri \
 #    libc-dev
